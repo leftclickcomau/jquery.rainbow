@@ -1,7 +1,10 @@
 /**
  * jquery.rainbow.js
  * 
- * Converts text into a rainbow of colours.
+ * Converts text into a rainbow of colours, by varying the hue in a range.
+ * 
+ * HSV to RGB conversion formula from:
+ * http://en.wikipedia.org/wiki/HSL_and_HSV#From_HSV
  * 
  * (c) 2010 Leftclick.com.au
  * Licensed under the GNU General Public License (GPL).
@@ -33,7 +36,7 @@
 				$.each(settings.css, function(i, prop) {
 					$elem.css(prop, rgb);
 				});
-				$('#slogan').append($elem);
+				$(this).append($elem);
 			}
 		});
 	};

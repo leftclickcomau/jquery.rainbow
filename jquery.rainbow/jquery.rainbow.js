@@ -32,7 +32,7 @@
 				var g = ((h >= 1.0) && (h < 3.0)) ? c : ((h >= 4.0) ? 0.0 : x);
 				var b = ((h >= 3.0) && (h < 5.0)) ? c : ((h < 2.0) ? 0.0 : x);
 				var rgb = 'rgb(' + Math.floor((r + m) * 255) + ',' + Math.floor((g + m) * 255) + ',' + Math.floor((b + m) * 255) + ')';
-				var $elem = $('<' + settings.element + ' />').text(text[i]);
+				var $elem = $('<' + settings.element + ' />').text(text.charAt(i));
 				$.each(settings.css, function(i, prop) {
 					$elem.css(prop, rgb);
 				});
@@ -40,5 +40,4 @@
 			}
 		});
 	};
-
 })(jQuery);

@@ -1,10 +1,13 @@
 /**
  * jquery.rainbow.js
  * 
- * Converts text into a rainbow of colours, by varying the hue in a range.
+ * Changes the colour of any text into a rainbow of colours, by varying the 
+ * hue in a range and converting to RGB to use in CSS.
  * 
  * HSV to RGB conversion formula from:
  * http://en.wikipedia.org/wiki/HSL_and_HSV#From_HSV
+ * 
+ * TODO: Convert to using jQuery colo(u)r plugin?
  * 
  * (c) 2010 Leftclick.com.au
  * Licensed under the GNU General Public License (GPL).

@@ -9,7 +9,7 @@
  * 
  * TODO: Convert to using jQuery colo(u)r plugin?
  * 
- * (c) 2010 Leftclick.com.au
+ * (c) 2010-2011 Leftclick.com.au
  * Licensed under the GNU General Public License (GPL).
  * Commercial licenses also available.
  */

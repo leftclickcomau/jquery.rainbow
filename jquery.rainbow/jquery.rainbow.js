@@ -7,7 +7,7 @@
  * HSV to RGB conversion formula from:
  * http://en.wikipedia.org/wiki/HSL_and_HSV#From_HSV
  * 
- * TODO: Convert to using jQuery colo(u)r plugin?
+ * TODO: Convert to using jQuery "color" plugin?
  * 
  * (c) 2010-2011 Leftclick.com.au
  * Licensed under the GNU General Public License (GPL).
